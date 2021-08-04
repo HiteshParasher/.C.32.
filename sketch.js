@@ -9,10 +9,10 @@ var stand1,stand2;
 var polygon;
 var slingShot;
 var polygon_img, backgroundImg;
-var bg = "images/light.jpg";
+var bg = "light.jpg";
 function preload(){
   getBackgroundImage();
-  polygon_img=loadImage("images/polygon.png");
+  polygon_img=loadImage("polygon.png");
   
 }
 function setup() {
